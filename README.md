@@ -1,2 +1,0 @@
-# GettingAndCleaningData
-GettingAndCleaningData Course Assignment
