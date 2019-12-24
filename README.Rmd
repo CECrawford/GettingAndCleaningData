@@ -2,12 +2,11 @@
 title: "Cleaning and Getting Data Course Project - readme"
 author: "CE Crawford"
 date: "24/12/2019"
-output: html_document
+output:
+  html_document:
+    keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Overview
 
@@ -16,10 +15,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Contents
 
-* README.rmd - this file
-* codebook.rmd - describes the data and what has been done to the data during the analysis
+* README.md - this file
+* codebook.md - describes the data and what has been done to the data during the analysis
 * tidy.Result.txt - output of the script
-* run_Analyis.R - script file
+* run_Analyis.R - script file which does the data processing
 
 The run_analysis.R script does the following:
 
