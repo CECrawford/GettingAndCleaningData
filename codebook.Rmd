@@ -48,7 +48,7 @@ Wrote result out to file called tidy.Result.txt
   + subject
   + activity 
   + measurement
-  + value
+  + mean
 
 2. It is tidy because : 
  + Each variable is in 1 column
@@ -63,7 +63,7 @@ General description of the file
     + Subject - identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
     + Activity - identifies the activity the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone)
     + Measurement - Mean or Std measurements from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-    + Value - the readings
+    + Mean - the man of each variable for each activity and each subject.
 
 
 
